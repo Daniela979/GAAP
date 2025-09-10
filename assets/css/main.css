@@ -1527,7 +1527,15 @@ header nav ul li a:hover {
 				}
 
 		}
+#header {
+  padding-top: 0;
+  margin-top: 0;
+}
 
+#header .content {
+  padding-top: 0;
+  margin-top: 0;
+}
 /* Main */
 
 	#main {
@@ -1686,6 +1694,7 @@ header nav ul li a:hover {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
