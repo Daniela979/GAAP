@@ -1410,7 +1410,22 @@ input, select, textarea {
 		#header nav.use-middle ul li.is-middle {
 			border-left: 0;
 		}
+#header .content .inner {
+  padding-top: 2vh; /* menos espaço no topo */
+}
 
+#header .content .inner h1 {
+  margin-top: 0; /* garante que o h1 não tem margem extra */
+}
+#header {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#header .content {
+  padding-top: 0;
+  margin-top: 0;
+}
 		body.is-article-visible #header {
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);
@@ -1694,6 +1709,7 @@ header nav ul li a:hover {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
