@@ -31,18 +31,27 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-}#location-contact {
-  padding: 3em 2em;
-  background: #f4f4f4;
-  margin-top: 2em;
+}
+#location-contact {
+  background-color: white; /* fundo branco */
+  color: #000; /* texto preto */
+  padding: 3em 1em; /* espaço por dentro */
+  text-align: center; /* centra o texto */
 }
 
-#location-contact h2 {
-  margin-bottom: 1em;
+#location-contact .content p {
+  margin: 0.5em 0; /* espaçamento entre parágrafos */
+  font-size: 1.1em;
 }
 
 #location-contact .map {
-  margin-top: 1em;
+  margin-top: 2em;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 ol, ul {
@@ -1681,6 +1690,7 @@ header nav ul li a:hover {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
