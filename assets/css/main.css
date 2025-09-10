@@ -1112,6 +1112,9 @@ input, select, textarea {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.5; /* Opcional – torna o fundo mais subtil */
+ position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  z-index: 0;
 }
 
 		#bg:before, #bg:after {
@@ -1133,8 +1136,10 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/fundo.png");
 			background-size: auto,
+			background: transparent;
+  z-index: 2;
  256px 256px;
 			background-position: center,
  center;
@@ -1653,4 +1658,5 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
