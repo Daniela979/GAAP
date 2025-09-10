@@ -1308,14 +1308,7 @@ input, select, textarea {
 				display: none;
 			}
 
-header .content,
-header .inner,
-header nav {
-  border: none !important;
-  border-bottom: none !important;
-  border-top: none !important;
-  box-shadow: none !important;
-}
+
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
@@ -1692,6 +1685,7 @@ header nav ul li a:hover {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
