@@ -1285,6 +1285,14 @@ input, select, textarea {
 				display: none;
 			}
 
+header .content,
+header .inner,
+header nav {
+  border: none !important;
+  border-bottom: none !important;
+  border-top: none !important;
+  box-shadow: none !important;
+}
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
@@ -1483,12 +1491,19 @@ input, select, textarea {
 							border-top: 0;
 						}
 
-						#header nav ul li a {
-							height: 3rem;
-							line-height: 3rem;
-							min-width: 0;
-							width: 100%;
-						}
+						header nav ul li a {
+  border: 1px solid white; /* ou outra cor */
+  padding: 0.5em 1em;
+  border-radius: 4px; /* se quiser cantos arredondados */
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  background-color: rgba(255,255,255,0.2);
+}
 
 				#header nav.use-middle:after {
 					display: none;
@@ -1654,6 +1669,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
