@@ -31,10 +31,18 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+}#location-contact {
+  padding: 3em 2em;
+  background: #f4f4f4;
+  margin-top: 2em;
 }
-#about {
-  min-height: 800px;  /* Aumenta a altura mínima */
-  padding: 3em 2em;   /* Mais espaçamento interno */
+
+#location-contact h2 {
+  margin-bottom: 1em;
+}
+
+#location-contact .map {
+  margin-top: 1em;
 }
 
 ol, ul {
@@ -1673,6 +1681,7 @@ header nav ul li a:hover {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
