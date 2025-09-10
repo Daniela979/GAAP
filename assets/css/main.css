@@ -1174,6 +1174,27 @@ input, select, textarea {
 			background-color: #000000;
 		}
 
+#bg-slideshow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: slideshow 15s infinite;
+}
+
+@keyframes slideshow {
+  0%   { background-image: url('images/fundo1.jpg'); }
+  33%  { background-image: url('images/fundo2.jpg'); }
+  66%  { background-image: url('images/fundo3.jpg'); }
+  100% { background-image: url('images/fundo1.jpg'); }
+}
+
 /* Wrapper */
 
 	#wrapper {
@@ -1653,6 +1674,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
